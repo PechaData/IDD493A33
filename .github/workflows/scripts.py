@@ -49,7 +49,6 @@ def update_the_json(pecha: Pecha):
     for new_segment in opf_segments:
         new_text = new_segment["text"]
         segment_id = (int(new_segment["id"]) - 1)
-        old_text = json_content[segment_id]
         updated_text = insert_break_after_text(new_text)
         new_content.append(updated_text)
     commentary_json["source"]["books"][0]["content"][0] = new_content
