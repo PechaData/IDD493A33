@@ -33,7 +33,7 @@ def get_pecha_segments(pecha: Pecha):
 
 def insert_break_after_text(new_text):
     updated_text = new_text + "<br>"
-    return updated_text
+    return updated_text.replace("$", "\n")
 
 
 def update_repo(repo_path):
