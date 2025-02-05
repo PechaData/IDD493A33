@@ -7,7 +7,7 @@
   "author": {
     "en": "DPO and Claude-3-5-sonnet-20241022"
   },
-  "imported": "2025-02-05T08:57:22.842877",
+  "imported": "2025-02-05T09:01:00.761293",
   "source": "https://docs.google.com/document/d/1m9s8VBMMvfraTTlDTGi4qA3SBdhzi6WYw32JNQZmmM8/edit?addon_store&tab=t.0",
   "toolkit_version": "0.0.1",
   "parser": "GoogleDocTranslationParser",
@@ -16,7 +16,7 @@
   "source_metadata": {
     "translation_alignments": {
       "root": "IB42962D2/layers/F741/Tibetan_Segment-D792.json",
-      "translation": "IDD493A33/layers/DB0D/Italian_Segment-F858.json"
+      "translation": "IDD493A33/layers/C30C/Italian_Segment-3881.json"
     },
     "long_title": {
       "en": "Entering the Middle Way Chapter 6, verses 1 to 64 Italian Claude AI Draft",
@@ -34,11 +34,11 @@
   },
   "bases": [
     {
-      "DB0D": {
+      "C30C": {
         "source_metadata": {
           "total_segments": 64
         },
-        "base_file": "DB0D.txt"
+        "base_file": "C30C.txt"
       }
     }
   ],
